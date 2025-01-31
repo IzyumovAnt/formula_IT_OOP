@@ -107,6 +107,7 @@ if __name__ == "__main__":
     bars = Pet("Барсик", 7)
     print(bars)
     print(repr(bars))
+    print(bars.make_sound())
 
     shar = Dog("Шарик", 10, "Немецкая овчарка")
     print(shar)
@@ -114,3 +115,4 @@ if __name__ == "__main__":
     print(shar.age_in_human_years())
     shar.age = 12
     print(shar.age)
+    print(shar.make_sound())
